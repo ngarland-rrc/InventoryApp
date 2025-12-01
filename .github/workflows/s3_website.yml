@@ -6,6 +6,11 @@ on:
       - 'main'
     paths:
       - 'index.html'
+        pull_request:
+    branches:
+      - 'main'
+    paths:
+      - 'index.html'
 
 jobs:
   build:
